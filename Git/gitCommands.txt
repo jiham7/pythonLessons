@@ -1,0 +1,48 @@
+git commands
+
+----Vocab---------------
+
+git clone "URL" : clone git repository onto local drive
+git diff : compares changes to each file from last commit
+git status - check which files have changed, see what you want to commit
+git add [fileName]: add to stage of which file to commit to change
+git commit -m "message" : commit locally 
+git push origin master : push locally to online site to master branch
+git pull : pull updated changes on branch from online repo to local
+git checkout "brach" : change to specified name branch
+
+-------GIT Instructions----------------
+
+How to download online / remote repository onto local machine
+1. In Bash, direct to where you wish to download the repo folder
+2. Go to the online repository and click on "Clone or download". There should be a URL link u should copy
+3. Then run the command
+	git clone "URL"
+4. A folder of the files should appear
+
+Setup your configuration
+1. Go inside the folder of the local repository using bash
+2. run command 
+	git config --global --edit
+3. type correct name and email of github account
+4. To save and exit out of the editor, press ESC and type 
+	:x
+then press Enter
+
+Whenever you make changes and you want to push it back up to online repo
+1. run 
+	git status 
+to see which files have been changed
+2. run 
+	git add [fileName]
+to add any of the changed file names to the stage / upcoming commit OR run
+	git add .
+to add all changes made
+3. run 
+	git commit -m "[any message]"
+to create a commit with a message that summarizes the changes made 
+4. run 
+	git push origin master
+to push it back up to the remote repo onto the master branch
+
+Check the online repository to see if the changes have been made
