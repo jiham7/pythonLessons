@@ -26,11 +26,28 @@ Lesson 3/27
 	- %.#f: number of decimals in float
 
 
-HW: make calculator with Add, Subtract, Multiply, Divide, Power, Root
-
-
-5. Conditionals
-	- 
-5. Loops
+6. Conditionals
+	- else if, always need colons
+7. Loops
 	- for loop: for x in list:
 	- while loop: while (condition)
+
+
+
+
+HW: make calculator with Add, Subtract, Multiply, Divide, Power, Root
+
+- Choose your operator 1. Add, 2. Subtract, 3. Multiply, 4. Divide, 5. Power, 6. Root
+- What is the first number? 
+- What is the second number? 
+
+Ex: 
+
+Hello. Welcome to blah
+Choose your operator 1. Add, 2. Subtract, 3. Multiply, 4. Divide, 5. Power, 6. Root Power
+What is the first number? 4
+What is the second number? 2
+
+The result is 16.
+Do you want to calculate more? (Y for yes, N for no)
+
