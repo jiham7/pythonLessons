@@ -1,0 +1,36 @@
+Lesson 3/27
+
+1. Hello World
+2. Variables and Types
+	- Numbers
+		- Float
+		- Int
+	- String
+	- Mixing Types
+	- None
+3. Operators 
+	- Add, subtract, multiply, divide
+	- modulo, power
+	- Strings
+4. List
+	- any type, any number
+	- append()
+	- operator
+	-range(x,y) [x, ..., y-1]
+
+5. String Formatting
+	- Format any type into string
+	- %s: string
+	- %d: Integer
+	- %f: float
+	- %.#f: number of decimals in float
+
+
+HW: make calculator with Add, Subtract, Multiply, Divide, Power, Root
+
+
+5. Conditionals
+	- 
+5. Loops
+	- for loop: for x in list:
+	- while loop: while (condition)
