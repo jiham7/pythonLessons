@@ -1,0 +1,23 @@
+Python Lesson 2 
+
+- Functions
+- Objects
+- Dictionary
+- Node
+- Recursion
+
+
+How to push to Git
+
+
+
+HW:
+
+ex: [1,2,3,4,5], target = 6
+	return [2,4] or [1,5]
+TwoNumberSum ( list, target):
+	return the two numbers that sum the target
+
+
+Download Bash and get it working, try to use my notes to push HW to github
+Find two or three ideas that you want to start the project with 
